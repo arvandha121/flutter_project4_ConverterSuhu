@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
             case "Kelvin":
               {
                 // statements;
-                result = input + 273;
+                result = input + 273.15;
                 listHasil.add("Konversi dari input " +
                     "$input" +
                     " ke Kelvin adalah : " +
